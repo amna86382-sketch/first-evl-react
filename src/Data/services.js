@@ -1,19 +1,29 @@
+
 const services = [
   {
     id: 1,
-    icon: "🫀",
-    title: "Cardiology Care",
+    icon: "♥",
+    title: "Remote Patient Monitoring",
     description:
-      "Remote heart monitoring, ECG reviews and cardiology consultations from home.",
-    category: "Heart Health",
+      "Monitor patient health conditions remotely with smart healthcare technology.",
+    category: "Monitoring"
   },
   {
     id: 2,
-    icon: "🧠",
-    title: "Neurology Support",
+    icon: "✚",
+    title: "Virtual Specialist Consults",
     description:
-      "Expert neurological assessments with secure video visits and follow-ups.",
-    category: "Brain Health",
+      "Connect with experienced medical specialists through online consultations.",
+    category: "Consultation"
   },
+  {
+    id: 3,
+    icon: "✧",
+    title: "AI Diagnostic Assistance",
+    description:
+      "Use intelligent diagnostic support to assist healthcare professionals.",
+    category: "Technology"
+  }
 ];
+
 export default services;

@@ -1,5 +1,7 @@
+
 import React from "react";
 import Home from "./pages/Home";
+
 function App() {
   return (
     <div className="app">
@@ -7,4 +9,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
